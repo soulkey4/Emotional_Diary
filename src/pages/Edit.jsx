@@ -5,7 +5,6 @@ import Editor from "../components/Editor"
 import { useContext, useEffect, useState } from "react"
 import { DiaryDispatchContext, DiaryStateContext } from "../App"
 
-
 const Edit = () => {
     const params = useParams()
     const nav = useNavigate()
