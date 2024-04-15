@@ -3,6 +3,8 @@ import { DiaryStateContext } from "../App"
 import Header from "../components/Header"
 import Button from "../components/Button"
 import DiaryList from "../components/DiaryList"
+import usePageTitle from "../hooks/usePageTilte"
+
 
 const getMonthlyData = (pivotDate, data) => {
     // pivotDate에 년도 월에 1일 0시 0분 0초 라는 시간
